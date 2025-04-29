@@ -10,6 +10,8 @@ function App() {
     const [isLoading, setIsLoading] = useState(false);
     const [error, setError] = useState('');
     const [message, setMessage] = useState(''); 
+    const apiUrl = import.meta.env.VITE_API_URL;
+   
     const allowedFileTypes = [
         "text/plain",
         "application/pdf",
@@ -62,7 +64,7 @@ function App() {
         formData.append('file', file); 
 
         try {
-            const response = await fetch('http://localhost:5001/upload', {  
+            const response = await fetch(`${apiUrl}/upload`, {  
                 method: 'POST',
                 body: formData,
                 
