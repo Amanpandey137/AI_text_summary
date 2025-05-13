@@ -1,12 +1,57 @@
-# React + Vite
+ # 🧠 Text Summarizer Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a full-stack web application that allows users to submit long text content and receive a concise summary powered by **Gemini API**. The app is built using the **MERN stack (MongoDB, Express, React, Node.js)**, styled with plain **CSS**, and optimized with **LRU caching** for faster performance and reduced redundant API calls.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌍 Deployed Link
 
-## Expanding the ESLint configuration
+🚀 Check out the live app here: [**Live Demo**](https://vercel.com/amanpandey137s-projects/ai-text-summary)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+> Replace the link above with your actual deployed URL (e.g. Render, Vercel, Netlify, Railway, etc.)
+
+---
+
+## 🚀 Features
+
+- ✍️ Input long text and get an AI-generated summary  
+- 🔁 Real-time summarization using Gemini API  
+- 🗃️ History of summaries stored in MongoDB  
+- ⚡ LRU Cache implemented to prevent duplicate API calls  
+- 🎨 Clean and responsive UI with vanilla CSS  
+- 🔐 Secure backend with environment-based API key management  
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend:
+- React  
+- CSS  
+
+### Backend:
+- Node.js  
+- Express.js  
+
+### Database:
+- MongoDB (with Mongoose)  
+
+### APIs:
+- Gemini API (for summarization)  
+
+### Optimization:
+- LRU Cache (Node LRU)  
+
+---
+
+## 📦 Installation
+
+### Prerequisites:
+- Node.js  
+- MongoDB (local or Atlas)  
+- Gemini API Key  
+
+### Clone the repository:
+```bash
+git clone https://github.com/your-username/text-summarizer-app.git
+cd text-summarizer-app

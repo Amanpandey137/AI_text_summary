@@ -145,7 +145,7 @@ function App() {
 
             </main>
             <footer className="App-footer">
-                Powered by React, Node.js, Gemini, and MongoDB
+                This is created using React,Express, Node.js, Gemini AI, and MongoDB
             </footer>
         </div>
     );
