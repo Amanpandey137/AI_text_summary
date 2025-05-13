@@ -53,5 +53,5 @@ This is a full-stack web application that allows users to submit long text conte
 
 ### Clone the repository:
 ```bash
-git clone https://github.com/your-username/text-summarizer-app.git
+git clone https://github.com/Amanpandey137/AI_text_summary
 cd text-summarizer-app
